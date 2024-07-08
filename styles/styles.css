@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    width: 5%;
+}
+
+.navbar{
+    
+    background-color: #16364D;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.contact-icon{
+    width: 2%;
+}
+
+.footer{
+    display: grid;
+}
