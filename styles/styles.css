@@ -5,18 +5,20 @@
 }
 
 .logo{
-    width: 5%;
+    width: 10em;
 }
 
 .navbar{
-    
+    padding: 1rem;
     background-color: #16364D;
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 a{
     text-decoration: none;
-    color: white;
+    
 }
 
 .contact-icon{
@@ -24,5 +26,104 @@ a{
 }
 
 .footer{
+    display: flex;
+    background-color: #16364D;
+}
+
+#my-photo{
+    width: 6em;
+    border-radius: 50%;
+}
+
+.tabs{
+    width: 50%;
+    border: 1px solid white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    align-items: center;
+}
+
+.img-navbar{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.home-img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.tab{
+    color: white;
+}
+
+.footer-p{
+    color: white;
+}
+
+.key-container{
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10%;
+    margin: 40px;
+}
+
+.key-questions{
+    padding: 20px;
+    background-color: #3C5B6F;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.key-main-container{
+   
+}
+
+.h2{
+    margin: 40px;
+    text-align: center;
+
+}
+.main-container{
+    background-color: #DFD0B8;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.child-container{
+    padding: 40px;
+    border-radius: 4px;
+}
+
+.container-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+.container-1 p{
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+
+.container-1 h1{
+    font-size: 80px;
+}
+
+.container-2{
+    text-align: center;
+}
+
+.title-questions{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.key-questions p{
+    color: white;
 }
